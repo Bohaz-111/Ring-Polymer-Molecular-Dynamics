@@ -16,28 +16,29 @@ Comparison between **quantum mechanical**, **ring-polymer molecular dynamics**, 
 
 ---
 
-## Theory (brief)
+## Theory
 
 ### 1) Quantum–classical isomorphism of the partition function
 
 For a 1D system with $\hat H=\hat p^{2}/2m+V(\hat x)$, the quantum canonical partition function
 
 
-$Z=\mathrm{tr}!\left[e^{-\beta \hat H}\right]$
+$Z=\mathrm{tr}\left[e^{-\beta \hat H}\right]$
 
 
 is **isomorphic** to the classical partition function of an $n$-bead ring polymer:
-$$
-Z=\lim_{n\to\infty} Z_n,\qquad
+
+
+$Z=\lim_{n\to\infty} Z_n,\qquad
 Z_n=\frac{1}{(2\pi\hbar)^n}!\int d\mathbf p, d\mathbf x;
-e^{-\beta_n H_n(\mathbf p,\mathbf x)},\quad \beta_n=\beta/n,
-$$
+e^{-\beta_n H_n(\mathbf p,\mathbf x)},\quad \beta_n=\beta/n$,
+
 with ring-polymer Hamiltonian
-$$
-H_n(\mathbf p,\mathbf x)=\sum_{j=1}^{n}\frac{p_j^2}{2m}
+
+
+$H_n(\mathbf p,\mathbf x)=\sum_{j=1}^{n}\frac{p_j^2}{2m}
 +\frac{m}{2\beta_n^{2}\hbar^{2}}\sum_{j=1}^{n}(x_j-x_{j-1})^{2}
-+\sum_{j=1}^{n}V(x_j),\qquad x_0\equiv x_n .
-$$
++\sum_{j=1}^{n}V(x_j),\qquad x_0\equiv x_n$
 
 **Bead-averaged estimator (position observables):**
 $$
