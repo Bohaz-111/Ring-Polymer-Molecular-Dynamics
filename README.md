@@ -53,7 +53,7 @@ A_n(\mathbf x)=\frac{1}{n}\sum_{j=1}^{n}A(x_j)$.
 The **Kubo-transformed** real-time correlation function is
 
 
-$\tilde C_{AB}(t)=\frac{1}{\beta Z}\int_0^\beta d\lambda;
+$\tilde C_{AB}(t)=\frac{1}{\beta Z}\int_0^\beta d\lambda
 \mathrm{tr}\Big[e^{-(\beta-\lambda)\hat H}\hat A e^{-\lambda \hat H}
 e^{+i\hat H t/\hbar}\hat B e^{-i\hat H t/\hbar}\Big]$.
 
