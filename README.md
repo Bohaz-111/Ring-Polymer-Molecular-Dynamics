@@ -1,8 +1,4 @@
-Here’s a clean, paste-ready **Markdown README** (no special citations or tool markup). It uses GitHub-compatible math ($…$, $$…$$) and includes a Fortran example block.
-
----
-
-# Ring-Polymer Molecular Dynamics (RPMD) — Fortran Toolkit
+# Ring-Polymer Molecular Dynamics (RPMD)
 
 Comparison between **quantum mechanical**, **ring-polymer molecular dynamics**, and **classical** simulations of a particle in a simple 1D anharmonic potential. Implements RPMD following Craig & Manolopoulos (2004) with utilities to compute **Kubo-transformed real-time correlation functions**.
 
@@ -25,9 +21,11 @@ Comparison between **quantum mechanical**, **ring-polymer molecular dynamics**, 
 ### 1) Quantum–classical isomorphism of the partition function
 
 For a 1D system with $\hat H=\hat p^{2}/2m+V(\hat x)$, the quantum canonical partition function
-$$
+
+$
 Z=\mathrm{tr}!\left[e^{-\beta \hat H}\right]
-$$
+$
+
 is **isomorphic** to the classical partition function of an $n$-bead ring polymer:
 $$
 Z=\lim_{n\to\infty} Z_n,\qquad
