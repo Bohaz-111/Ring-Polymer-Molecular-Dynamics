@@ -30,7 +30,7 @@ is **isomorphic** to the classical partition function of an $n$-bead ring polyme
 
 
 $Z=\lim_{n\to\infty} Z_n,\qquad
-Z_n=\frac{1}{(2\pi\hbar)^n}\int d\mathbf p\int d\mathbf xe^{-\beta_n H_n(\mathbf p,\mathbf x)}\quad \beta_n=\beta/n$,
+Z_n=\frac{1}{(2\pi\hbar)^n}\int d\mathbf p\int d\mathbf x\,e^{-\beta_n H_n(\mathbf p,\mathbf x)}\quad \beta_n=\beta/n$,
 
 with ring-polymer Hamiltonian
 
