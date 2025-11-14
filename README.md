@@ -42,7 +42,7 @@ $H_n(\mathbf p,\mathbf x)=\sum_{j=1}^{n}\frac{p_j^2}{2m}
 **Bead-averaged estimator (position observables):**
 
 
-$z\langle A\rangle=\lim_{n\to\infty}\frac{1}{(2\pi\hbar)^n Z_n}\int d\mathbf p, d\mathbf x
+$\langle A\rangle=\lim_{n\to\infty}\frac{1}{(2\pi\hbar)^n Z_n}\int d\mathbf p d\mathbf x
 e^{-\beta_n H_n}A_n(\mathbf x)\quad
 A_n(\mathbf x)=\frac{1}{n}\sum_{j=1}^{n}A(x_j)$.
 
@@ -54,7 +54,7 @@ The **Kubo-transformed** real-time correlation function is
 
 
 $\tilde C_{AB}(t)=\frac{1}{\beta Z}\int_0^\beta d\lambda;
-\mathrm{tr}\Big[e^{-(\beta-\lambda)\hat H},\hat A e^{-\lambda \hat H}
+\mathrm{tr}\Big[e^{-(\beta-\lambda)\hat H}\hat A e^{-\lambda \hat H}
 e^{+i\hat H t/\hbar}\hat B e^{-i\hat H t/\hbar}\Big]$.
 
 It obeys
