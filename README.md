@@ -22,9 +22,9 @@ Comparison between **quantum mechanical**, **ring-polymer molecular dynamics**, 
 
 For a 1D system with $\hat H=\hat p^{2}/2m+V(\hat x)$, the quantum canonical partition function
 
-$
-Z=\mathrm{tr}!\left[e^{-\beta \hat H}\right]
-$
+
+$Z=\mathrm{tr}!\left[e^{-\beta \hat H}\right]$
+
 
 is **isomorphic** to the classical partition function of an $n$-bead ring polymer:
 $$
