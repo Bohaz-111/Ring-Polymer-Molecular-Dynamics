@@ -2,7 +2,7 @@
 
 Comparison between **quantum mechanical**, **ring-polymer molecular dynamics**, and **classical** simulations of a particle in a simple 1D anharmonic potential. Implements RPMD following Craig & Manolopoulos (2004) with utilities to compute **Kubo-transformed real-time correlation functions**.
 
-> Please cite: I. R. Craig & D. E. Manolopoulos (2004), *Quantum statistics and classical mechanics: Real time correlation functions from ring polymer molecular dynamics*, **J. Chem. Phys. 121, 3368–3373**.
+> Reference: I. R. Craig & D. E. Manolopoulos (2004), *Quantum statistics and classical mechanics: Real time correlation functions from ring polymer molecular dynamics*, **J. Chem. Phys. 121, 3368–3373**.
 
 ---
 
